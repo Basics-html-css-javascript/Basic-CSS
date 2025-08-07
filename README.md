@@ -38,10 +38,12 @@ This file introduces **HTML structure** and common elements:
 
 </body>
 </html>
-
+```
 
 🎨 File 2: 2_inline_css.html
 This file shows inline CSS usage:
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,7 +59,7 @@ This file shows inline CSS usage:
 
 </body>
 </html>
-
+```
 
 🎯 File 3: 3_external_css.html
 This file uses external CSS. It includes:
@@ -74,6 +76,7 @@ Group selectors
 
 Box model properties
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,10 +98,11 @@ Box model properties
 
 </body>
 </html>
+
+```
+
 🧾 styles.css (External Stylesheet)
-css
-Copy
-Edit
+```css
 /* Universal Selector */
 * {
   margin: 0;
@@ -143,6 +147,8 @@ h1, p {
   list-style: square;
   margin-left: 20px;
 }
+```
+
 🖼️ Output
 Here is the output preview of the final styled page:
 
