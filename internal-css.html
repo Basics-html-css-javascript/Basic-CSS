@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML ELEMENT</title>
+    <style>
+        /* Element Selector */
+        body {
+            font-family: Verdana;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 18px;
+            color: gray;
+        }
+
+        /* Group Selector */
+        h2, h3, h4, h5, h6 {
+            color: darkgreen;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* ID Selector */
+        #submit-btn {
+            background-color: green;
+            color: white;
+        }
+
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Descendant Selector */
+        form input {
+            border: 1px solid #000;
+        }
+
+        /* Child Selector */
+        ul > li {
+            color: brown;
+        }
+
+        /* Attribute Selector */
+        input[type="email"] {
+            background-color: #f9f9f9;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        .div-box {
+            background-color: #eee;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Main Heading</h1>
+    <h2>Sub element</h2>
+    <h3>small element</h3>
+    <h4>more small element</h4>
+    <h5>most small element</h5>
+    <h6>small</h6>
+
+    <p class="highlight">This is a paragraph Text.</p>
+
+    <a href="https://www.example.com">Example Link</a><br/>
+
+    <img src="html.png" alt="Place holder image" height="100px" width="100px">
+
+    <ul>
+        <li>Html</li>
+        <li>css</li>
+        <li>Javascript</li>
+    </ul>
+
+    <ol>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+    </ol>
+
+    <table border="1">
+        <tr>
+            <th>Techonlogy</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>css</td>
+        </tr>
+    </table>
+
+    <form>
+        <label> Name : <input type="text" name="name"> </label> <br>
+        <label> Email : <input type="email" name="email"> </label> <br>
+        <input type="submit" value="submit" id="submit-btn">
+    </form>
+
+    <button>Click Me</button>
+
+    <div class="div-box"> This is div block </div>
+
+    <span>This is span</span>
+
+</body>
+</html>
